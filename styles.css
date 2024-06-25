@@ -6,13 +6,18 @@ box-sizing: border-box;
 
 body {
 background-color: bisque;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 header {
 display: flex;
 justify-content: space-between;
+align-items: center;
 background-color: rgb(134, 18, 18);
 width: auto;
+padding-right: 10px;
 }
 
 nav {
@@ -38,8 +43,14 @@ main section {
   text-align: center;
   margin: 10px;
   padding: 10px;
-  border: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
   color: white;
+}
+
+main img {
+  width: 500px;
+  height: 500px;
 }
 
 footer {
